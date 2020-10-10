@@ -33,22 +33,28 @@
         <ImageView
             android:layout_width="64dp"
             android:layout_height="64dp"
+            android:contentDescription="Imagem gasolina"
             android:src="@drawable/gasolina" />
 
         <EditText
             android:id="@+id/gasolinaEdit"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:autofillHints="Informe o valor da gasolina"
+            android:inputType="numberDecimal" />
 
         <ImageView
             android:layout_width="64dp"
             android:layout_height="64dp"
+            android:contentDescription="imagem etanol"
             android:src="@drawable/etanol" />
 
         <EditText
             android:id="@+id/etanolEdit"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:autofillHints="Informe o valor do etanol"
+            android:inputType="numberDecimal" />
 
         <Button
             android:layout_width="match_parent"
