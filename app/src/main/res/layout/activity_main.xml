@@ -57,11 +57,17 @@
             android:inputType="numberDecimal" />
 
         <Button
+            android:id="@+id/btComparar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:text="@string/comparar"
             android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/imageResult"
+            android:layout_width="match_parent"
+            android:layout_height="64dp" />
     </LinearLayout>
 
 </LinearLayout>
